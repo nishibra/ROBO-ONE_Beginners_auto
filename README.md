@@ -10,6 +10,58 @@
   要はんだ付け
 - 
 
+## picoの使い方
+
+```
+リセントボタンを押しながら電源をいれる。
+PCにPICOのフォルダーを認識
+u2フィルをダウンロードし書き込み
+thonnyをインストール
+ツールオプションの設定
+サンプルをロード
+main.pyをpicoに保存
+```
+
+## Pico Display Pack by Pimoroni
+
+https://shop.pimoroni.com/products/pico-display-pack?variant=32368664215635
+
+https://github.com/pimoroni/pimoroni-pico/tree/main/micropython/examples/pico_display
+
+## Micro python
+
+https://www.marutsu.co.jp/pc/static/large_order/zep/m-z-picoled-da1
+
+https://www.kumikomi-kaihatu.com/technical-column/column-024/
+
+https://micropython.org/download/rp2-pico/
+
+# Thonny
+
+Python IDE for begin
+
+https://logikara.blog/raspi-pico-thonny-micropy/#mokuji_1
+
+ラズパイPicoの使い方 MicroPython＆開発環境Thonny、SSLエラーの対処方法も紹介
+
+https://logikara.blog/raspi-pico-thonny-micropy/
+
+### bluetooth
+
+Pi Pico W でBluetooth Low Energy（BLE）を試してみる
+
+https://wisteriahill.sakura.ne.jp/CMS/WordPress/2023/10/09/pi-pico-bluetooth-low-energy-ble/
+
+### i2c
+
+https://randomnerdtutorials.com/raspberry-pi-pico-i2c-scanner-micropython/
+
+### bt
+
+https://github.com/juan518munoz/PicoSwitch-WirelessGamepadAdapter
+
+
+
 ## install Thony
 ## microPython
 
