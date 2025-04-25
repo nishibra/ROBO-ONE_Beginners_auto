@@ -1,4 +1,4 @@
-# Robo-One_Beginners_auto
+# ROBO-ONE Beginners auto (Pico)
 ## 使用環境
 - Windows PC
 - Android
@@ -6,7 +6,8 @@
    配線ボード
 　 Kxrセット
 　 serial 変換ボード
-- バッテリー/充電器
+  バッテリー/充電器
+  要はんだ付け
 - 
 
 ## install Thony
