@@ -3,10 +3,10 @@
 - Windows PC
 - Android
 - Raspbery Pi Pico W
--   配線ボード
--　 Kxrセット
--　 serial 変換ボード
--   バッテリー/充電器
+-  配線ボード
+-　Kxrセット
+-　serial 変換ボード
+-  バッテリー/充電器
 - 工具
 -  はんだごて
 -　はんだ
@@ -15,17 +15,18 @@
 -  ドライバー
 -  テスター
 
-## picoの使い方
+## picoの使い方の流れ
 
-```
-リセントボタンを押しながら電源をいれる。
-PCにPICOのフォルダーを認識
-u2フィルをダウンロードし書き込み
-thonnyをインストール
-ツールオプションの設定
-サンプルをロード
-main.pyをpicoに保存
-```
+- リセントボタンを押しながら電源をいれる。
+- PCにPICOのフォルダーを認識
+- UF2フィルをダウンロードし書き込み
+- thonnyをインストール
+- ツールオプションの設定
+- サンプルをロード
+- main.pyをpicoに保存
+
+### UF2ファイル
+
 Pi Pico W でBluetooth Low Energy（BLE）を試してみる
 
 https://wisteriahill.sakura.ne.jp/CMS/WordPress/2023/10/09/pi-pico-bluetooth-low-energy-ble/
@@ -36,7 +37,7 @@ Download the correct MicroPython UF2 file for your board:
 
 Pico 2 W
 
-よりUF2ファイルをダウンロードし、コピペしてください。
+よりUF2ファイルをダウンロードし、picoのフォルダーにコピペしてください。
 
 
 
