@@ -4,7 +4,7 @@
 - Android
 - Raspbery Pi Pico W
 -  配線ボード
--  kxrセット
+-- kxrセット
 -  serial 変換ボード
 -  バッテリー/充電器
 - 工具
