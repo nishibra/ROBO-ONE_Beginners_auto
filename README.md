@@ -21,6 +21,24 @@ thonnyをインストール
 サンプルをロード
 main.pyをpicoに保存
 ```
+Pi Pico W でBluetooth Low Energy（BLE）を試してみる
+
+https://wisteriahill.sakura.ne.jp/CMS/WordPress/2023/10/09/pi-pico-bluetooth-low-energy-ble/
+
+https://www.raspberrypi.com/documentation/microcontrollers/micropython.html
+
+Download the correct MicroPython UF2 file for your board:
+
+Pico 2 W
+
+よりUF2ファイルをダウンロードし、コピペしてください。
+
+
+
+
+
+
+
 
 ## Pico Display Pack by Pimoroni
 
@@ -67,6 +85,9 @@ https://github.com/juan518munoz/PicoSwitch-WirelessGamepadAdapter
 
 ### Serial 半二重通信
 ### BLE
+
+
+
 ### LED
 ### Buzzer
 ### BNO0055
