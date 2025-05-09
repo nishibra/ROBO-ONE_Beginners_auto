@@ -129,3 +129,48 @@ class I2C – a two-wire serial protocol
 https://docs.micropython.org/en/latest/library/machine.I2C.html
 
 
+### 変更点
+1.bleの名前
+
+2.055のaddr 28 or 29 二か所変更
+bno055_base.py
+  def __init__(self, i2c, address=0x28, 
+
+bno055.py
+def __init__(self, i2c, address=0x28, crystal=True, 
+
+tof
+bytearray(value)
+
+
+-[ラズパイ] VL53L1Xを使って距離を測定する
+
+https://noda-farm.blog/archives/47
+
+
+
+
+
+
+2.cariblationの方法
+
+https://qiita.com/yomori/items/95101a8792287263792b
+https://zenn.dev/ymt117/books/100kinsat-spr-basic/viewer/imu
+
+-加速度計のキャリブレーション
+デバイスを数秒間、6つの異なる安定した位置に置く。
+位置の変更はゆっくりと動かすようにする。
+6つの安定した位置は任意の方向でよいが、装置が少なくとも1回はX,Y,Z軸に垂直になるようにする。
+
+-ジャイロスコープのキャリブレーション
+デバイスを数秒間、単一の安定した位置に置く。
+
+-磁力計のキャリブレーション
+磁力計はHard-iron歪みとSoft-iron歪みの両方の影響を受けるが、多くの場合、Hard-ironの影響が原因。
+装置全体をランダムな動き（たとえば、空中に数字の「8」を書くなど）をいくつか行うことでHard-ironに対するキャリブレーションを行う。
+
+CALIB_STATレジスタで、加速度計のキャリブレーション状態を確認できる。すべてが3になると終了する。
+
+
+
+
