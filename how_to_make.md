@@ -126,7 +126,8 @@ GND    gnd
  
 [購入先](https://akizukidenshi.com/catalog/g/g104367/)
 
- 
+![pb2](pics_git/pbsw_h.png)
+
 1KΩ程度の抵抗を追加し、GP16に接続します。外側から締め付けるタイプを使用すると組み立てる前にはんだをしておくことが出来ます。
 
 ### LED
@@ -136,34 +137,35 @@ GND    gnd
 
 [購入先](https://akizukidenshi.com/catalog/g/g103261/)
 
- 
+![led](pics_git/led_h.png)  
+
 GP17に接続する。GNDは接続しません。
 
 ### 電源SWハーネス
 電源用のスイッチです。
 
-![imu](pics_git/imu_h.png)  
+![harness](pics_git/harness.png)  
  
 [購入先](https://kondo-robot.com/product/lv_sw_harness)
 
 ### ニッケル水素バッテリー
 このサイズのニッケル水素バッテリーのみが使用可能です。
 
-![imu](pics_git/imu_h.png)  
+![bat](pics_git/battery.png)  
 
 [購入先](https://kondo-robot.com/product/02335)
 
 ### ROBOパワーセル用コネクターセットオス
 拡張基板への電源供給用に使用します。
 
-![imu](pics_git/imu_h.png)  
+![con](pics_git/connector.png)  
  
 [購入先](https://kondo-robot.com/product/01109)
 
 ### 電源ケーブルA
 拡張基板への電源供給用に使用します。
 
-![imu](pics_git/imu_h.png)  
+![conm](pics_git/conmesu.png)  
 
 [購入先](https://kondo-robot.com/product/02145)
 
