@@ -27,8 +27,10 @@
   
 CPUカバーの締め付けを繰り返すとねじが馬鹿になるのでインサートを使用しました。
 
-### PSDdと ToF　センサープラケット
- 　　 
+### PSDdと ToF　センサーブラケット
+
+![auto](pics_git/psd2_tof_bkt.png)   　　 
+![auto](pics_git/psd1_bkt.png)  
 
 Head と Arm
   
