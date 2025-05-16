@@ -38,11 +38,14 @@ CPUカバーの締め付けを繰り返すとねじが馬鹿になるのでイ�
 ![auto](pics_git/head.png)  
 ![auto](pics_git/kote_v1.png)  
 
-<ハード>
-(近藤様)近藤科学でハーネスや部品などセット販売可能なものがあれば公開前にお知らせください。
-Pico拡張ボード
+## <ハード>
+
+### Pico拡張ボード
 入出力Pinが電源とともに出力されているのでとても便利です。
- 
+
+![auto](pics_git/mather.png)  
+
+
 https://www.amazon.co.jp/dp/B0B45YWJH7?ref=ppx_yo2ov_dt_b_fed_asin_title
 
 Raspberry Pi Pico
