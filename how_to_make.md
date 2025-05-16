@@ -36,7 +36,7 @@ CPUカバーの締め付けを繰り返すとねじが馬鹿になるのでイ�
 この2点は操縦型と共通です。
 
 ![auto](pics_git/head.png)  
-![auto](pics_git/kote_v1.png)  
+![auto](pics_git/kote v1.png)  
 
 <ハード>
 (近藤様)近藤科学でハーネスや部品などセット販売可能なものがあれば公開前にお知らせください。
