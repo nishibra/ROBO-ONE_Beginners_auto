@@ -49,12 +49,14 @@ CPUカバーの締め付けを繰り返すとねじが馬鹿になるのでイ�
 
 ### Raspberry Pi Pico
 PicoやPico w,pico2,pico2wなどを使用する。Pico2Wを使用すれるすべてのサンプルプログラムが使用できます。
+
 [購入先](https://akizukidenshi.com/catalog/g/g117947/)
 
-Serial変換I/F
+### Serial変換I/F
 サーボモーターを使用するためのシリアル通信の半二重通信から全二重通信に変換するボードです。
  
-https://www.besttechnology.co.jp/modules/onlineshop/index.php?fct=photo&p=299
+[購入先](https://www.besttechnology.co.jp/modules/onlineshop/index.php?fct=photo&p=299)
+
 配線方法
 
  
