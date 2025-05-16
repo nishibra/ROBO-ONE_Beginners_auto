@@ -43,33 +43,39 @@ CPUカバーの締め付けを繰り返すとねじが馬鹿になるのでイ�
 ### Pico拡張ボード
 入出力Pinが電源とともに出力されているのでとても便利です。
 
-![auto](pics_git/mather.png)  
+![mather](pics_git/mather.png)  
 
 [購入先](https://www.amazon.co.jp/dp/B0B45YWJH7?ref=ppx_yo2ov_dt_b_fed_asin_title)
 
 ### Raspberry Pi Pico
-PicoやPico w,pico2,pico2wなどを使用する。Pico2Wを使用すれるすべてのサンプルプログラムが使用できます。
+PicoやPico w,pico2,pico2wなどを使用します。Pico2W、Pico2Wを使用すれば、Bluetoothによるコントロールプログラムが使用できます。
+![pico](pics_git/picoW.png)  
 
 [購入先](https://akizukidenshi.com/catalog/g/g117947/)
 
 ### Serial変換I/F
 サーボモーターを使用するためのシリアル通信の半二重通信から全二重通信に変換するボードです。
- 
+
+![serial](pics_git/serial.png)  
+
 [購入先](https://www.besttechnology.co.jp/modules/onlineshop/index.php?fct=photo&p=299)
 
-配線方法
-
- 
+#### 配線方法
 シリアル変換基板の配線状態です。
 
- 
+![serial](pics_git/serial_h1.png)  
 拡張基板に電源供給するためのコネクターをはんだ付けします。
 
- 　 
+![serial](pics_git/serial_h2.png)  
+
 シリアル変換基板のはんだ付けした状態です。
 
+![serial](pics_git/serial_h3.png)  
  
 シリアルポート1に接続します。
+
+![serial](pics_git/serial.png)  
+
 
 PSDセンサー
 距離を計測するPSDセンサーです。出力はアナログ電圧ですのでADC端子に接続します。
