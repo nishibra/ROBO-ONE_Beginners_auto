@@ -45,8 +45,7 @@ CPUカバーの締め付けを繰り返すとねじが馬鹿になるのでイ�
 
 ![auto](pics_git/mather.png)  
 
-
-https://www.amazon.co.jp/dp/B0B45YWJH7?ref=ppx_yo2ov_dt_b_fed_asin_title
+[拡張ボード](https://www.amazon.co.jp/dp/B0B45YWJH7?ref=ppx_yo2ov_dt_b_fed_asin_title)
 
 Raspberry Pi Pico
 PicoやPico w,pico2,pico2wなどを使用する。Pico2Wを使用すれるすべてのサンプルプログラムが使用できます。
