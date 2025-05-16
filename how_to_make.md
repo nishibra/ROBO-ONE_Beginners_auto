@@ -17,17 +17,17 @@
 
 ![auto](pics_git/Body.png) 
 ![auto](pics_git/Body_B.png) 
- ![auto](pics_git/bt_cover.png)   
+![auto](pics_git/bt_cover.png)   
 
-(近藤様)操縦型もこのタイプに変更お願いします。いろいろなバッテリーが使えるように考えていましたが、Picoならニッカドで十分行けることがわかりました。
-またPicoのケースが大きくなり、バッテリーカバーの締め付けが困難となりました。カバーの締め付け方向を変更しました。
-Pico CPU case
+### Pico CPU case
+センサーを多く付けたためPicoのケースが大きくなりました。
 
+![auto](pics_git/pico_case.png)   
+![auto](pics_git/pico_cover.png)   
   
-(近藤様)CPUカバーの締め付けを繰り返すとねじが馬鹿になる可能性があります。
-良い方法があれば対応お願いします。
+CPUカバーの締め付けを繰り返すとねじが馬鹿になるのでインサートを使用しました。
 
-Psdと Tof　センサープラケット
+### PSDdと ToF　センサープラケット
  　　 
 
 Head と Arm
