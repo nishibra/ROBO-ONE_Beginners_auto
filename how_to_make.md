@@ -165,7 +165,7 @@ GP17に接続する。GNDは接続しません。
 ### 電源ケーブルA
 拡張基板への電源供給用に使用します。
 
-![conm](pics_git/conmesu.png)  
+![conm](pics_git/connmesu.png)  
 
 [購入先](https://kondo-robot.com/product/02145)
 
