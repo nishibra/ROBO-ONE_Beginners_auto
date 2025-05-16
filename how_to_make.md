@@ -1,6 +1,6 @@
-# ROBO-ONE Beginners 自型律Pico用ロボット
+# ROBO-ONE Beginners 自律型ロボット(RasPi Pico)
 
-20250506 ARRC_西村
+     20250506 ARRC_西村
 
 このロボットはRaspberry Pi Picoを使った初心者向けの自律型ロボットです。操縦型ロボットとできるだけ共通化するとともに、倒立伸子の実験も可能とした構造とします。
 
