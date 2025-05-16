@@ -107,7 +107,7 @@ GND     gnd
 ### IMU　9軸センサー
 オイラー角の計測するためのセンサーです。I2C通信で使用します。
 
-
+![imu](pics_git/bno055.png)  
 
 [購入先](https://www.amazon.co.jp/BNO055-%E7%B5%B6%E5%AF%BE%E6%96%B9%E5%90%91%E3%82%BB%E3%83%B3%E3%82%B5%E3%83%BC-%E3%83%9C%E3%83%BC%E3%83%89%E8%A7%92%E5%BA%A6-%E3%82%B8%E3%83%A3%E3%82%A4%E3%83%AD%E3%82%B9%E3%82%B3%E3%83%BC%E3%83%97-%E3%82%BB%E3%83%B3%E3%82%B5%E3%83%BC%E3%83%A2%E3%82%B8%E3%83%A5%E3%83%BC%E3%83%AB/dp/B0DWMH2Q5R/ref=sr_1_3_sspa?__mk_ja_JP=%E3%82%AB%E3%82%BF%E3%82%AB%E3%83%8A&crid=1KRTL7M5EYEPF&dib=eyJ2IjoiMSJ9.7aJLRn6PFVtPx5BZzxavXWUdBq4QwEbMpnBcoDqnpMJmxHoVhYJ4gzQt6b_R9lhVuWffEwHppjduuULQRPCgax7qg5t5qgFQfHdc8DSfOuYBcyJi1Tv2cfpOwKojhLSk9xG_D2LIu75vhbSQgj49-fiQHrr2MgcUOlqcltPMqVsFAmkuQuwnJx7NgNiZH12yXYVYVfVzXwOzbCQOS0TwsJiqzJAj3fesd1y6poiZst4qXJ1A6YwIt4y0FtPf-0LaM-zUtKZkWWMeuuI35nSUb_oIfNsG15sHmvkodnjwpNY.NwwWaNmR0Ko6-cTkWFGggAtHZlMR-3M_aj71AKZnqQk&dib_tag=se&keywords=bno055+%E3%82%BB%E3%83%B3%E3%82%B5%E3%83%BC&qid=1746504506&sprefix=bno055+%E3%82%BB%E3%83%B3%E3%82%B5%E3%83%BC%2Caps%2C178&sr=8-3-spons&sp_csd=d2lkZ2V0TmFtZT1zcF9hdGY&psc=1)
 ```
@@ -117,9 +117,12 @@ GP20    sda
 3V3      Vcc
 GND    gnd
 ```
+![imu](pics_git/imu_h.png)  
 
 ### Push ボタンSW
 押しボタンスイッチです。入力として使います。
+
+![pb](pics_git/pb_sw.png)  
  
 [購入先](https://akizukidenshi.com/catalog/g/g104367/)
 
@@ -128,7 +131,9 @@ GND    gnd
 
 ### LED
 発光ダイオードです。1KΩ程度の抵抗を追加して使用します。リードの長い方が一般にアノードです。プラス側に接続します。
- 
+
+![led](pics_git/led.png)  
+
 [購入先](https://akizukidenshi.com/catalog/g/g103261/)
 
  
@@ -136,27 +141,36 @@ GP17に接続する。GNDは接続しません。
 
 ### 電源SWハーネス
 電源用のスイッチです。
+
+![imu](pics_git/imu_h.png)  
  
 [購入先](https://kondo-robot.com/product/lv_sw_harness)
 
 ### ニッケル水素バッテリー
 このサイズのニッケル水素バッテリーのみが使用可能です。
- 
+
+![imu](pics_git/imu_h.png)  
+
 [購入先](https://kondo-robot.com/product/02335)
 
 ### ROBOパワーセル用コネクターセットオス
 拡張基板への電源供給用に使用します。
+
+![imu](pics_git/imu_h.png)  
  
 [購入先](https://kondo-robot.com/product/01109)
 
 ### 電源ケーブルA
 拡張基板への電源供給用に使用します。
- 
+
+![imu](pics_git/imu_h.png)  
+
 [購入先](https://kondo-robot.com/product/02145)
 
 ## <ソフト>
 プログラムに関しては下記概ね確認済みです。少しずつ公開していきます。
-開発環境
+
+### 開発環境
 OS
 Windows PC
 開発
