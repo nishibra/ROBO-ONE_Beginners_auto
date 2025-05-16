@@ -7,6 +7,7 @@
 ## <メカ>
 ### 全体図
 操縦型ロボットとできるだけ共通化、倒立伸子の実験も可能な構造としました。
+
 ![auto](pics_git/asy.png) 
 ![auto](pics_git/asy2.png) 
 ![auto](pics_git/asy3.png) 
