@@ -1,4 +1,4 @@
-# ROBO-ONE Beginners 自律型ロボット(RasPi Pico)
+# ROBO-ONE Beginners 自律型ロボット(RasPi Pico) mechanical design
 
 20250506 ARRC_西村
 
