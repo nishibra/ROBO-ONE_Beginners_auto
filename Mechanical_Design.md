@@ -42,3 +42,9 @@ CPUカバーの締め付けを繰り返すとねじが馬鹿になるのでイ�
 ![auto](pics_git/head.png)  
 ![auto](pics_git/kote_v1.png)  
 
+HeadとArmには安全や器物保護のためスポンジのドアノブカバーを使用します。
+
+
+
+[購入先](https://amzn.asia/d/89CXsD9 
+
