@@ -1,5 +1,9 @@
 # ROBO-ONE Beginners 自律型ロボット(RasPi Pico)　Electronic Circuit
 ## <電子回路>
+電子回路の完成したところです。
+
+![mather](pics_git/ele_all.png)  
+
 ### Pico拡張ボード
 入出力Pinが電源とともに出力されているのでとても便利です。
 
@@ -129,4 +133,4 @@ GP17に接続する。GNDは接続しません。
 
 [購入先](https://kondo-robot.com/product/02145)
 
-### 完成写真
+
