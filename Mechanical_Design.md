@@ -1,10 +1,7 @@
-# ROBO-ONE Beginners 自律型ロボット(RasPi Pico) mechanical design
-
-20250506 ARRC_西村
-
+# ROBO-ONE Beginners 自律型ロボット Mechanical Design
+## 機械設計
 このロボットはRaspberry Pi Picoを使った初心者向けの自律型ロボットです。操縦型ロボットとできるだけ共通化するとともに、倒立伸子の実験も可能とした構造とします。
 
-## <メカ>
 ### 全体図
 操縦型ロボットとできるだけ共通化、倒立伸子の実験も可能な構造としました。
 
