@@ -1,4 +1,4 @@
-# ROBO-ONE Beginners 自律型ロボット(RasPi Pico)
+# ROBO-ONE Beginners 自律型ロボット(RasPi Pico)　Electronic Circuit
 ## <電子回路>
 ### Pico拡張ボード
 入出力Pinが電源とともに出力されているのでとても便利です。
