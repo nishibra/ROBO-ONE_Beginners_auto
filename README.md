@@ -70,6 +70,9 @@ https://logikara.blog/raspi-pico-thonny-micropy/#mokuji_1
 
 https://logikara.blog/raspi-pico-thonny-micropy/
 
+https://logikara.blog/raspi-pico-thonny-micropy/#mokuji_3
+
+
 ### bluetooth
 
 Pi Pico W でBluetooth Low Energy（BLE）を試してみる
