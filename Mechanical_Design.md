@@ -28,6 +28,9 @@
 CPUカバーの締め付けを繰り返すとねじが馬鹿になるのでインサートを使用しました。
 
 ![auto](pics_git/ins.png)   
+
+[購入先](https://www.amazon.co.jp/dp/B0DCV9GJND?ref=ppx_yo2ov_dt_b_fed_asin_title)
+
 ![auto](pics_git/insert.png)   
 ![auto](pics_git/CPUcase.png)   
 
