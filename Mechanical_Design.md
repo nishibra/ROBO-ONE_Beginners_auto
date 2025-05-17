@@ -44,6 +44,7 @@ CPUカバーの締め付けを繰り返すとねじが馬鹿になるのでイ�
 
 HeadとArmには安全や器物保護のためスポンジのドアノブカバーを使用します。
 
+![donb](pics_git/doorn.png)  
 
 [購入先](https://amzn.asia/d/89CXsD9) 
 
