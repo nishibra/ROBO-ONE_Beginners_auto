@@ -1,6 +1,6 @@
 # ROBO-ONE Beginners 自律型ロボット(RasPi Pico)　Electronic Circuit
 ## <電子回路>
-電子回路の完成したところです。
+電子回路部分の完成写真です。
 
 ![mather](pics_git/ele_all.png)  
 
