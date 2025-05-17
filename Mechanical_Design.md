@@ -25,6 +25,7 @@
   
 CPUカバーの締め付けを繰り返すとねじが馬鹿になるのでインサートを使用しました。
 
+![auto](pics_git/ins.png)   
 ![auto](pics_git/insert.png)   
 ![auto](pics_git/CPUcase.png)   
 
