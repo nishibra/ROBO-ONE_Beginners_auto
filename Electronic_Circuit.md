@@ -34,6 +34,8 @@ PicoやPico w,pico2,pico2wなどを使用します。Pico2W、Pico2Wを使用す
 
 ![serial](pics_git/base.png)  
 
+[購入先](https://www.amazon.co.jp/hz/mobile/mission?p=dHkxoTufpjuQ0emaRyZ%2BIhguRa%2FwVxKAiiAWu7REqs%2FP8arZZaxN%2FAGHmiOIr3IzVqyp0oj4SP8kcADkDee1py1sYe5tW4Prcka9HdeznU8Z8oGUOPKSkxl2ULFpDS1KE5She5SjTgTHIWy0y98NuxpgbB2RO%2FIk4G1iOlfHG%2Bnd59c8O4%2BCfb8YcVZOtsbkJ8U4AaF8hzYoLLVjArd8zjwa3rssqte2mHQRjEp74U3M3zccfEuujPcM1yZJ8Ol3Q8if%2FYpn8kZJPm4irUFbDq27JzcmRKO82e0WOkJMcTXLeEzVWvXrXY03eKXQR%2BPZCBr3%2BcY%2B51ROoaw3Lf9%2BhIVkaHw%2FA%2FXQo0KAQ6gxaPHdLPl4i%2Bxu2y%2FmW%2BgkjyNZSJj5ql6RZ%2F%2FLYn5jNJ2e%2BNiGhoYqwVhLuKSJ8G6aXE6HTofxUyNHhC%2FPXk8qDU%2BW&ref_=ci_mcx_mi&pf_rd_r=DHZBHAC3DWB0YGXM36ZY&pf_rd_p=81736856-b9b1-48f5-95c5-06815082a022&pd_rd_r=62f20657-eaa7-4c87-814b-b5925f955cf6&pd_rd_w=zmL3C&pd_rd_wg=g1zeb)
+
 シリアル変換基板のはんだ付けした状態です。
 
 ![serial](pics_git/serial_h2.png)  
@@ -43,9 +45,7 @@ PicoやPico w,pico2,pico2wなどを使用します。Pico2W、Pico2Wを使用す
 
 ![serial](pics_git/base_serial.png)  
 
-![serial](pics_git/cable.png)  
 
-[購入先](https://www.amazon.co.jp/hz/mobile/mission?p=dHkxoTufpjuQ0emaRyZ%2BIhguRa%2FwVxKAiiAWu7REqs%2FP8arZZaxN%2FAGHmiOIr3IzVqyp0oj4SP8kcADkDee1py1sYe5tW4Prcka9HdeznU8Z8oGUOPKSkxl2ULFpDS1KE5She5SjTgTHIWy0y98NuxpgbB2RO%2FIk4G1iOlfHG%2Bnd59c8O4%2BCfb8YcVZOtsbkJ8U4AaF8hzYoLLVjArd8zjwa3rssqte2mHQRjEp74U3M3zccfEuujPcM1yZJ8Ol3Q8if%2FYpn8kZJPm4irUFbDq27JzcmRKO82e0WOkJMcTXLeEzVWvXrXY03eKXQR%2BPZCBr3%2BcY%2B51ROoaw3Lf9%2BhIVkaHw%2FA%2FXQo0KAQ6gxaPHdLPl4i%2Bxu2y%2FmW%2BgkjyNZSJj5ql6RZ%2F%2FLYn5jNJ2e%2BNiGhoYqwVhLuKSJ8G6aXE6HTofxUyNHhC%2FPXk8qDU%2BW&ref_=ci_mcx_mi&pf_rd_r=DHZBHAC3DWB0YGXM36ZY&pf_rd_p=81736856-b9b1-48f5-95c5-06815082a022&pd_rd_r=62f20657-eaa7-4c87-814b-b5925f955cf6&pd_rd_w=zmL3C&pd_rd_wg=g1zeb)
 
 
 ### PSDセンサー
