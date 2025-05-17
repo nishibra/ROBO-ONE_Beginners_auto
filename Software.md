@@ -4,22 +4,22 @@
 プログラムに関しては下記概ね確認済みです。少しずつ公開していきます。
 
 ### 開発環境
-OS
+#### OS
 Windows PC
-
-開発
+#### 開発環境
 Thonny
-
-開発言語
+#### 開発言語
 Micro Python
 
-Thonnyのインストール
+#### Thonnyのインストール
 　Config等
+
 Picoの設定
+
 Micro Pythonの初期設定
 
 
-サンプルプログラム
+## サンプルプログラム
 -押しボタン入力とLed点滅
 
 -ADCとPSD入力
