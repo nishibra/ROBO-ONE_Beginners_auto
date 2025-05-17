@@ -1,39 +1,5 @@
-## <メカ>
-### 全体図
-操縦型ロボットとできるだけ共通化、倒立伸子の実験も可能な構造としました。
-
-![auto](pics_git/asy.png) 
-![auto](pics_git/asy2.png) 
-![auto](pics_git/asy3.png) 
-
-### 足回りパーツ
-キャスター部を取り外すと倒立伸子としての使用が可能となります。駆動は近藤科学のKRS3301を使用します。バッテリーにはニッケル水素電池のみの使用とします。
-
-![auto](pics_git/Body.png) 
-![auto](pics_git/Body_B.png) 
-![auto](pics_git/bt_cover.png)   
-
-### Pico CPU case
-センサーを多く付けたためPicoのケースが大きくなりました。
-
-![auto](pics_git/pico_case.png)   
-![auto](pics_git/pico_cover.png)   
-  
-CPUカバーの締め付けを繰り返すとねじが馬鹿になるのでインサートを使用しました。
-
-### PSDdと ToF　センサーブラケット
-
-![auto](pics_git/psd2_tof_bkt.png)   　　 
-![auto](pics_git/psd1_bkt.png)  
-
-### Head と Arm
-この2点は操縦型と共通です。
-
-![auto](pics_git/head.png)  
-![auto](pics_git/kote_v1.png)  
-
-## <ハード>
-
+# ROBO-ONE Beginners 自律型ロボット(RasPi Pico)
+## <電子回路>
 ### Pico拡張ボード
 入出力Pinが電源とともに出力されているのでとても便利です。
 
