@@ -25,6 +25,9 @@
   
 CPUカバーの締め付けを繰り返すとねじが馬鹿になるのでインサートを使用しました。
 
+![auto](pics_git/insert.png)   
+![auto](pics_git/CPUcase.png)   
+
 ### PSDdと ToF　センサーブラケット
 
 ![auto](pics_git/psd2_tof_bkt.png)   　　 
