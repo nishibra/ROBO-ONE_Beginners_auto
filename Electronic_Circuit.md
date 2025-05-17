@@ -128,3 +128,5 @@ GP17に接続する。GNDは接続しません。
 ![conm](pics_git/connmesu.png)  
 
 [購入先](https://kondo-robot.com/product/02145)
+
+### 完成写真
