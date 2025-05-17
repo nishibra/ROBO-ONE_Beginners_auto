@@ -13,6 +13,7 @@
 
 ### Raspberry Pi Pico
 PicoやPico w,pico2,pico2wなどを使用します。Pico2W、Pico2Wを使用すれば、Bluetoothによるコントロールプログラムが使用できます。
+
 ![pico](pics_git/picoW.png)  
 
 [購入先](https://akizukidenshi.com/catalog/g/g117947/)
