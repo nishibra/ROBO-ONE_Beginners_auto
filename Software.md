@@ -29,27 +29,19 @@
 - main.pyとしてpicoに保存(自動起動)
 
 ### UF2ファイル
-以下のサイトより適切なuf2ファイルをダウン―どしてください。
+UF2は-USB Flashing Format(UF2)-Microsoftが開発したマイコン書き込み用のファイルフォーマットです。以下のサイトより適切なuf2ファイルをダウン―ドしてください。
 
 [Download the correct MicroPython UF2 file for your board](https://www.raspberrypi.com/documentation/microcontrollers/micropython.html)
 
-### Pico 2 W
+### Picoの起動
 
-よりUF2ファイルをダウンロードし、picoのフォルダーにコピペしてください。
+UF2ファイルをダウンロードし、picoのフォルダーにコピペしてください。電源を入れるとPicoが起動します。
+Thonnyにて以下を設定します。
 
-Download the correct MicroPython UF2 file for your board:
- 
- 
- Config等
+- Config等
+- Picoの設定
+- Micro Pythonの初期設定
 
-Picoの設定
-
-Micro Pythonの初期設定
-
-## サーボモーターの設定
-
-設定の画面コピー
-![SERVO_SET](pics_git/ics_inv_s.png)
 
 ## サンプルプログラム
 -押しボタン入力とLed点滅
@@ -57,6 +49,12 @@ Micro Pythonの初期設定
 -ADCとPSD入力
 
 -Serial Servoのコントロール
+
+## サーボモーターの設定
+
+設定の画面コピー
+![SERVO_SET](pics_git/ics_inv_s.png)
+
 
 -PSDによるリングエッジの認識と回避
 
