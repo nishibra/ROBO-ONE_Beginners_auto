@@ -11,7 +11,34 @@ Thonny
 ### 開発言語
 Micro Python
 ### Thonnyのインストール
-　Config等
+
+ 
+### picoの使い方の流れ
+
+- リセントボタンを押しながら電源をいれる。
+- PCにPICOのフォルダーを認識
+- UF2フィルをダウンロードし書き込み
+- thonnyを起動
+- ツールオプションの設定
+- サンプルをロード
+- main.pyをpicoに保存(自動起動)
+
+### UF2ファイル
+
+[Pi Pico W でBluetooth Low Energy（BLE）を試してみる](https://wisteriahill.sakura.ne.jp/CMS/WordPress/2023/10/09/pi-pico-bluetooth-low-energy-ble/)
+
+https://www.raspberrypi.com/documentation/microcontrollers/micropython.html
+
+Download the correct MicroPython UF2 file for your board:
+
+### Pico 2 W
+
+よりUF2ファイルをダウンロードし、picoのフォルダーにコピペしてください。
+
+Download the correct MicroPython UF2 file for your board:
+ 
+ 
+ Config等
 
 Picoの設定
 
