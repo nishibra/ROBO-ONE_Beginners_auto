@@ -20,7 +20,7 @@ Micro Pythonの初期設定
 ## サーボモーターの設定
 
 設定の画面コピー
-![SERVO_SET](pics_git/ics_inv.png)
+![SERVO_SET](pics_git/ics_inv_s.png)
 
 ## サンプルプログラム
 -押しボタン入力とLed点滅
