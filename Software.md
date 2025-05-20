@@ -1,5 +1,4 @@
 # ROBO-ONE Beginners 自律型ロボット Software
-# ソフトウェア
 このロボットはRaspberry Pi Picoを使った初心者向けの自律型ロボットです。MycroPythonを使用してプログラミングします。
 プログラムに関しては下記概ね確認済みです。少しずつ公開していきます。
 
