@@ -15,23 +15,20 @@ Micro Python
 
 [Pico-series Microcontrollers](https://www.raspberrypi.com/documentation/microcontrollers/pico-series.html#pico-2-family)
 
-### picoの使い方の流れ
+### picoの開発の流れ
 
 - リセントボタンを押しながら電源をいれる。
 - PCにPICOのフォルダーを認識
 - UF2フィルをダウンロードし書き込み
-- thonnyを起動
+- Thonnyを起動
 - ツールオプションの設定
-- サンプルをロード
-- main.pyをpicoに保存(自動起動)
+- サンプルプログラムをロード/実行
+- main.pyとしてpicoに保存(自動起動)
 
 ### UF2ファイル
+以下のサイトより適切なuf2ファイルをダウン―どしてください。
 
-[Pi Pico W でBluetooth Low Energy（BLE）を試してみる](https://wisteriahill.sakura.ne.jp/CMS/WordPress/2023/10/09/pi-pico-bluetooth-low-energy-ble/)
-
-https://www.raspberrypi.com/documentation/microcontrollers/micropython.html
-
-Download the correct MicroPython UF2 file for your board:
+[Download the correct MicroPython UF2 file for your board](https://www.raspberrypi.com/documentation/microcontrollers/micropython.html)
 
 ### Pico 2 W
 
@@ -71,5 +68,7 @@ Micro Pythonの初期設定
 -倒立伸子の制御
 
 -BLE 通信ライブラリー
+
+[Pi Pico W でBluetooth Low Energy（BLE）を試してみる](https://wisteriahill.sakura.ne.jp/CMS/WordPress/2023/10/09/pi-pico-bluetooth-low-energy-ble/)
 
 -BLEを使ったスマホによるロボットコントロール
