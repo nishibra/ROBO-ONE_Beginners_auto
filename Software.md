@@ -1,17 +1,16 @@
 # ROBO-ONE Beginners 自律型ロボット Software
-## ソフトウェア
+# ソフトウェア
 このロボットはRaspberry Pi Picoを使った初心者向けの自律型ロボットです。MycroPythonを使用してプログラミングします。
 プログラムに関しては下記概ね確認済みです。少しずつ公開していきます。
 
-### 開発環境
-#### OS
-Windows PC
-#### 開発環境
+## 開発環境
+### PCのOS
+Windows
+### 統合開発環境
 Thonny
-#### 開発言語
+### 開発言語
 Micro Python
-
-#### Thonnyのインストール
+### Thonnyのインストール
 　Config等
 
 Picoの設定
