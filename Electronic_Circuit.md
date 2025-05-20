@@ -5,7 +5,7 @@
 ![mather](pics_git/ele_all.png)  
 
 ### Pico拡張ボード
-入出力Pinが電源とともに出力されているのでとても便利です。
+入出力Pinが電源とともに出力されているのでとても便利です。赤:3.3v 黒:gnd 黄:信号
 
 ![mather](pics_git/mather.png)  
 
