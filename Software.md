@@ -3,13 +3,16 @@
 プログラムに関しては下記概ね確認済みです。少しずつ公開していきます。
 
 ## 開発環境
-### PCのOS
-Windows
-### 統合開発環境
-Thonny
-### 開発言語
-Micro Python
+- PCのOS
+  Windows
+- 統合開発環境
+  Thonny
+- 開発言語
+  Micro Python
+
 ### Thonnyのインストール
+
+[Thonnyのインストール【Windows編】](https://sanuki-tech.net/and-more/2022/install-thonny-python-ide/)
 
 ### Raspberry Pi Pico
 
