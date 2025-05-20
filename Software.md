@@ -13,7 +13,7 @@ Micro Python
 
 ### Raspberry Pi Pico
 
-[pico](https://www.raspberrypi.com/documentation/microcontrollers/pico-series.html#pico-2-family)
+[Pico-series Microcontrollers](https://www.raspberrypi.com/documentation/microcontrollers/pico-series.html#pico-2-family)
 
 ### picoの使い方の流れ
 
