@@ -28,6 +28,8 @@ PicoやPico w,pico2,pico2wなどを使用します。Pico2W、Pico2Wを使用す
 #### 配線方法
 シリアル変換基板の配線状態です。
 
+![serial](pics_git/serial_conn.png)  
+
 ![serial](pics_git/serial_h1.png)  
 
 拡張基板に電源供給するためのコネクターをはんだ付けします。
