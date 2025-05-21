@@ -2,12 +2,12 @@
 ## <電子回路>
 電子回路部分の完成写真です。
 
-![mather](pics_git/ele_all.png)  
+![mather](pics_git/electro.png)  
 
 ### Pico拡張ボード
 入出力Pinが電源とともに出力されているのでとても便利です。赤:3.3v 黒:gnd 黄:信号
 
-![mather](pics_git/mather.png)  
+![mather](pics_git/mboard.png)  
 
 [購入先](https://www.amazon.co.jp/dp/B0B45YWJH7?ref=ppx_yo2ov_dt_b_fed_asin_title)
 
