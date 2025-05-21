@@ -64,6 +64,8 @@ krs/krs_driver.py
 ```
 i2c/i2c_2ch_scaner.py
 ```
+[参考 Raspberry Pi Pico: I2C Scanner (MicroPython) – Finding the Address of I2C Devices](https://randomnerdtutorials.com/raspberry-pi-pico-i2c-scanner-micropython/)
+
 ### IMUライブラリー
 ```
 imu/bno055_test.py
