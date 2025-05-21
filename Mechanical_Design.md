@@ -25,6 +25,8 @@ KXRパーツを使ったドライブセットとアームセットを使用し�
 
 ![auto](pics_git/joint_base_A.png) 
 
+足回りパーツ
+
 ![auto](pics_git/Body.png) 
 ![auto](pics_git/Body_B.png) 
 ![auto](pics_git/bt_cover.png)   
