@@ -21,9 +21,7 @@ KXRパーツを使ったドライブセットとアームセットを使用し�
 ![auto](pics_git/kxr_drive_set.png) 
 ![auto](pics_git/kxr_arm_set.png) 
 
-ジョイントベースA
-
-![auto](pics_git/joint_base_A.png) 
+[ジョイントベースA](https://kondo-robot.com/product/02300)
 
 [アームサポーター3300A](https://kondo-robot.com/product/02306)
 
