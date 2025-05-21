@@ -94,6 +94,8 @@ GND    gnd
 ### Push ボタンSW
 押しボタンスイッチです。入力として使います。
 
+![pb](pics_git/pb_c.png)  
+
 ![pb](pics_git/pb_sw.png)  
  
 [購入先](https://akizukidenshi.com/catalog/g/g104367/)
@@ -104,6 +106,9 @@ GND    gnd
 
 ### LED
 発光ダイオードです。1KΩ程度の抵抗を追加して使用します。リードの長い方が一般にアノードです。プラス側に接続します。
+
+![led](pics_git/led_c.png)  
+
 
 ![led](pics_git/led.png)  
 
