@@ -65,7 +65,11 @@ PSD（Position Sensitive Detector）は光が当たった位置に応じて、�
 
 ![tof](pics_git/tof_c.png)
 
+推奨電圧は5Vですが、3.3Vて゜も動作を確認しました。
+
 ![tof](pics_git/tof_cd.png)  
+
+動作が不安定な場合は拡張ボードから5V電圧が出ていますのでこちらから給電してください。
 
 ![tof](pics_git/tfluna.png)  
 
