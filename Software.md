@@ -72,6 +72,9 @@ imu/bno055_test.py
 imu/bno055_base.py
 imu/bno055.py
 ```
+[参照 micropython-bno055](https://github.com/micropython-IMU/micropython-bno055)
+
+
 ### ToFライブラリー
 ```
 tof_test.py
