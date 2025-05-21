@@ -47,7 +47,7 @@ Psd2個とToFセンサーのブラケットです。Cpu-caseには2mmタッピ�
 ![auto](pics_git/psd1_bkt.png)  
 
 ### Head と Arm
-この2点は操縦型と共通です。
+この2点は操縦型と共通です。 組み立ての相手はKXRパーツのジョイントベースAです。2mmのビスを使用してください。
 
 ![auto](pics_git/head.png)  
 ![auto](pics_git/kote_v1.png)  
