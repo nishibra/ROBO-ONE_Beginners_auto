@@ -14,13 +14,15 @@
 
 ### 足回りパーツ(操縦型と共通)
 キャスター部を取り外すと倒立伸子としての使用が可能となります。駆動は近藤科学のKRS3301を使用します。バッテリーにはニッケル水素電池のみの使用とします。
-
+組み立ての相手はKXRパーツのジョイントベースAです。2mmのビスと2.6mmのビスを使用してください。
 ![auto](pics_git/Body.png) 
+
 ![auto](pics_git/Body_B.png) 
 ![auto](pics_git/bt_cover.png)   
 
 ### Pico CPU case
 センサーを多く付けたためPicoのケースが大きくなりました。
+拡張ボードの締め付けにはM3-8皿ホーン止めビスを使用ます。
 
 ![auto](pics_git/pico_case.png)   
 ![auto](pics_git/pico_cover.png)   
