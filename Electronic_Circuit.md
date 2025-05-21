@@ -65,6 +65,10 @@ PicoやPico w,pico2,pico2wなどを使用します。Pico2W、Pico2Wを使用す
 ### TOFセンサー
 距離を測定するTOFセンサーです。比較的長距離の距離の計測に使用します。
 
+![tof](pics_git/tof_c.png)
+
+![tof](pics_git/tof_cd.png)  
+
 ![tof](pics_git/tfluna.png)  
 
 [購入先](https://www.amazon.co.jp/dp/B087N2JRJ9/ref=sspa_dk_detail_0?psc=1&pd_rd_i=B087N2JRJ9&pd_rd_w=S1om1&content-id=amzn1.sym.f293be60-50b7-49bc-95e8-931faf86ed1e&pf_rd_p=f293be60-50b7-49bc-95e8-931faf86ed1e&pf_rd_r=T8AB1F18CDD292K4XRB3&pd_rd_wg=BPNWh&pd_rd_r=b4a0289b-4286-4983-8f2f-0c5dc9c905ef&sp_csd=d2lkZ2V0TmFtZT1zcF9kZXRhaWw)
