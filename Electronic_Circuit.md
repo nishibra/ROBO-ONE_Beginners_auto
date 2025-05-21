@@ -1,6 +1,6 @@
 # ROBO-ONE Beginners 自律型ロボット(RasPi Pico)　Electronic Circuit
 ## <電子回路>
-電子回路部分の完成写真です。
+電子回路部分の完成写真です。はんだ付けを極力少なくするようにしました。入出力の拡張も余裕があります。
 
 ![mather](pics_git/electro.png)  
 
@@ -12,16 +12,12 @@
 [拡張ボードの購入先](https://www.amazon.co.jp/dp/B0B45YWJH7?ref=ppx_yo2ov_dt_b_fed_asin_title)
 
 ### Raspberry Pi Pico
-PicoやPico w,pico2,pico2wなどを使用します。Pico2W、Pico2Wを使用すれば、Bluetoothによるコントロールプログラムが使用できます。
-
-![pico](pics_git/picoW.png)  
+PicoやPico w,pico2,pico2wなどを使用します。Pico2W、Pico2Wを使用すれば、Bluetoothによるコントロールプログラムが利用できます。
 
 [Picoの購入先](https://akizukidenshi.com/catalog/g/g117947/)
 
 ### Serial変換I/F
 サーボモーターを使用するためのシリアル通信の半二重通信から全二重通信に変換するボードです。
-
-![serial](pics_git/serial.png)  
 
 [Serial変換I/Fの購入先](https://www.besttechnology.co.jp/modules/onlineshop/index.php?fct=photo&p=299)
 
@@ -51,7 +47,7 @@ PicoやPico w,pico2,pico2wなどを使用します。Pico2W、Pico2Wを使用す
 
 
 ### PSDセンサー
-距離を計測するPSDセンサーです。出力はアナログ電圧ですのでADC端子に接続します。
+距離を計測するPSDセンサーです。出力はアナログ電圧ですのでADC端子に接続します。赤:3.3v 黒:gnd 黄:信号です。このセンサーの推奨電圧は5Vですが3.3Vでも問題なく動作します。
 
 ![psd](pics_git/psd.png)  
 
