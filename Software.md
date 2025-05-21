@@ -78,13 +78,15 @@ tof_test.py
 tof_max_mini.py
 lider.py
 ```
+[参照 tf-luna-micropython](https://github.com/davmoz/tf-luna-micropython)
+
 ### BLE 通信ライブラリー
 ```
 ble/ble_test.py
 ble/ble_simple_peripheral.py
 ble/ble_advertising.py
 ```
-[Pi Pico W でBluetooth Low Energy（BLE）を試してみる](https://wisteriahill.sakura.ne.jp/CMS/WordPress/2023/10/09/pi-pico-bluetooth-low-energy-ble/)
+[参照 Pi Pico W でBluetooth Low Energy（BLE）を試してみる](https://wisteriahill.sakura.ne.jp/CMS/WordPress/2023/10/09/pi-pico-bluetooth-low-energy-ble/)
 
 ### BLEを使ったスマホによるロボットコントロール
 - スマホによる操縦プログラム
