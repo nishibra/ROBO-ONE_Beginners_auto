@@ -44,32 +44,50 @@ Thonnyにて以下を設定します。
 
 
 ## サンプルプログラム
--押しボタン入力とLed点滅
+### 押しボタンSW入力とLed点滅
+```
+io/switch_led_test.py
+```
+### ADCとPSD入力
+```
+psd/psd_test.py
+```
+### Serial Servoのコントロール
+```
+krs/krs_driver.py
+```
+サーボモーターの設定
 
--ADCとPSD入力
-
--Serial Servoのコントロール
-
-## サーボモーターの設定
-
-設定の画面コピー
 ![SERVO_SET](pics_git/ics_inv_s.png)
 
-
--PSDによるリングエッジの認識と回避
-
--PSDによる相手の認識と攻撃
-
--IMUライブラリー
-
--ToFライブラリー
-
--ToFとIMUによる相手認識
-
--倒立伸子の制御
-
--BLE 通信ライブラリー
-
+### I2cスキャナー
+```
+i2c/i2c_2ch_scaner.py
+```
+### IMUライブラリー
+```
+imu/bno055_test.py
+imu/bno055_base.py
+imu/bno055.py
+```
+### ToFライブラリー
+```
+tof_test.py
+tof_max_mini.py
+lider.py
+```
+### BLE 通信ライブラリー
+```
+ble/ble_test.py
+ble/ble_simple_peripheral.py
+ble/ble_advertising.py
+```
 [Pi Pico W でBluetooth Low Energy（BLE）を試してみる](https://wisteriahill.sakura.ne.jp/CMS/WordPress/2023/10/09/pi-pico-bluetooth-low-energy-ble/)
 
--BLEを使ったスマホによるロボットコントロール
+### BLEを使ったスマホによるロボットコントロール
+- スマホによる操縦プログラム
+- PSDによるリングエッジの認識と回避
+- PSDによる相手の認識と攻撃
+```
+beginners/robo_beginners.py
+```
