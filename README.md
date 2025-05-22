@@ -1,33 +1,35 @@
 ![robo-one](pics/robo-one.png)  ![bra](pics/bra.png)
 # ROBO-ONE Beginners auto
 
-## ROBO-ONE Beginners 競技規則　[競技規則](https://github.com/nishibra/ROBO-ONE_Beginners)
-## ROBO-ONE Beginners auto　[機械設計](Mechanical_Design.md)
-## ROBO-ONE Beginners auto　[電子回路](Electronic_Circuit.md)
-## ROBO-ONE Beginners auto　[ソフトウェア](Software.md)
+### ROBO-ONE Beginners 競技規則　[競技規則](https://github.com/nishibra/ROBO-ONE_Beginners)
+### ROBO-ONE Beginners auto　[機械設計](Mechanical_Design.md)
+### ROBO-ONE Beginners auto　[電子回路](Electronic_Circuit.md)
+### ROBO-ONE Beginners auto　[ソフトウェア](Software.md)
 
 
-## 参考資料
+### 参考資料
 #### auto開発に必要なもの
 >Windows PC
+
 >スマホ(Android)
 
 >工具
 >>はんだごて
--  はんだ
--  ニッパー
--  ラジオペンチ
--  ドライバー
--  テスター
+>>はんだ
+>>ニッパー
+>>ラジオペンチ
+>>ドライバー
+>>テスター
 
-- Raspbery Pi Pico W
--  拡張ボード
--  kxrセット
--  serial 変換ボード
--  バッテリー/充電器
+>ロボットの部品
+>>Raspbery Pi Pico W
+>>拡張ボード
+>>kxrパーツ
+>>センサー類
+>>serial 変換I/F
+>>バッテリー/充電器
 
-
-## picoの使い方の流れ
+#### picoの使い方の流れ
 
 - リセントボタンを押しながら電源をいれる。
 - PCにPICOのフォルダーを認識
