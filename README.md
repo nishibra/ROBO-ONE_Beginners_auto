@@ -1,5 +1,18 @@
+![robo-one](pics/robo-one.png)  ![bra](pics/bra.png)
 # ROBO-ONE Beginners auto (Pico)
-## 使用環境
+
+## ROBO-ONE Beginners 競技規則　[競技規則](robo-one-light-flow.md)
+## ROBO-ONE Beginners auto　[機械設計](28thROBO_ONE_Light_rule_v2.md)
+## ROBO-ONE Beginners auto　[電子回路](28thROBO_ONE_Light_rule_v2.md)
+## ROBO-ONE Beginners auto　[ソフトウェア](28thROBO_ONE_Light_rule_v2.md)
+
+
+
+
+
+### 参考資料
+
+### 使用環境
 - Windows PC
 - Android
 - Raspbery Pi Pico W
