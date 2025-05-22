@@ -36,7 +36,7 @@ KXRパーツを使ったドライブセットとアームセットを使用し�
 
 ### Pico CPU case
 センサーを多く付けたためPicoのケースが大きくなりました。
-拡張ボードの締め付けにはM3-8皿ホーン止めビスを使用ます。
+拡張ボードの締め付けにはM2.6-8タッピングビスを使用ます。
 
 ![auto](pics_git/pico_case.png)   
 ![auto](pics_git/pico_cover.png)   
