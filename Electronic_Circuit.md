@@ -27,7 +27,6 @@ PicoやPico w,pico2,pico2wなどを使用します。Pico2W、Pico2Wを使用す
 シリアル変換I/Fの配線状態です。(シリアル変換I/Fボードは仕様変更がありますので配線に当たっては必ずマニアルでご確認ください。)
 
 ![serial](pics_git/serial_conn.png)  
-
 ![serial](pics_git/serial_h1.png)  
 
 拡張基板に電源供給するためのコネクターをはんだ付けします。
