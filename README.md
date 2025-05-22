@@ -1,5 +1,5 @@
 ![robo-one](pics/robo-one.png)  ![bra](pics/bra.png)
-# ROBO-ONE Beginners auto (Pico)
+# ROBO-ONE Beginners auto
 
 ## ROBO-ONE Beginners 競技規則　[競技規則](robo-one-light-flow.md)
 ## ROBO-ONE Beginners auto　[機械設計](28thROBO_ONE_Light_rule_v2.md)
