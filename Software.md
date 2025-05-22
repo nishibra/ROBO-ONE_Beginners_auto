@@ -98,8 +98,12 @@ ble/ble_advertising.py
 ```
 beginners/robo_beginners.py
 ```
+スマホのアプリBaconを使用します。アプリからダウンロードしてください。以下のアイコンです。
 
 ![SERVO_SET](pics_git/bacon.png)
+
+コントロール画面は以下のように押したときにコマンドを発行し、離した時に発行されるコマンドを設定します。動画の様な画面を自由に作ってください。
+
 ![SERVO_SET](pics_git/bacon_s1.png)
 
 [動画](https://www.youtube.com/shorts/bfC331REHko)
