@@ -7,26 +7,25 @@
 ## ROBO-ONE Beginners auto　[ソフトウェア](Software.md)
 
 
+## 参考資料
+#### auto開発に必要なもの
+>Windows PC
+>スマホ(Android)
 
-
-
-### 参考資料
-
-### 使用環境
-- Windows PC
-- Android
-- Raspbery Pi Pico W
--  配線ボード
--  kxrセット
--  serial 変換ボード
--  バッテリー/充電器
-- 工具
--  はんだごて
+>工具
+>>はんだごて
 -  はんだ
 -  ニッパー
 -  ラジオペンチ
 -  ドライバー
 -  テスター
+
+- Raspbery Pi Pico W
+-  拡張ボード
+-  kxrセット
+-  serial 変換ボード
+-  バッテリー/充電器
+
 
 ## picoの使い方の流れ
 
