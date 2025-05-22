@@ -45,9 +45,6 @@ PicoやPico w,pico2,pico2wなどを使用します。Pico2W、Pico2Wを使用す
 
 ![serial](pics_git/base_serial.png)  
 
-
-
-
 ### PSDセンサー
 PSD（Position Sensitive Detector）は光が当たった位置に応じて、アナログ信号を出力する受光素子で、﻿距離を計測するセンサーです。出力はアナログ電圧ですのでADC端子に接続します。黒:gnd　赤:3.3v  黄:信号で、ケーブルは黒:gnd　赤:3.3v  白:信号に対応します。このセンサーの推奨電圧は5Vですが3.3Vでも問題なく動作しています。
 
@@ -81,7 +78,7 @@ GND     gnd
 ```
 
 ### IMU　9軸センサー
-オイラー角の計測するためのセンサーです。I2C通信で使用します。
+IMU(Inertial Measurement Unit)は、慣性計測装置のことで、3次元の慣性運動（並進運動と回転運動）を検出するために、加速度センサーと角速度（ジャイロ）センサーを組み合わせた装置です。﻿ここではロボットの姿勢(オイラー角)を計測するために使用します。I2C通信で使用します。
 
 ![imu](pics_git/imu_c.png)
 
@@ -99,7 +96,6 @@ GND    gnd
 押しボタンスイッチです。入力として使います。
 
 ![pb](pics_git/pb_c.png)  
-
 ![pb](pics_git/pb_sw.png)  
  
 [購入先](https://akizukidenshi.com/catalog/g/g104367/)
