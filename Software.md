@@ -98,3 +98,8 @@ ble/ble_advertising.py
 ```
 beginners/robo_beginners.py
 ```
+
+![SERVO_SET](pics_git/bacon.png)
+![SERVO_SET](pics_git/bacon_s1.png)
+
+
