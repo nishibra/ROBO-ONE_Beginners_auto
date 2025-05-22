@@ -102,4 +102,4 @@ beginners/robo_beginners.py
 ![SERVO_SET](pics_git/bacon.png)
 ![SERVO_SET](pics_git/bacon_s1.png)
 
-
+[動画](https://www.youtube.com/shorts/bfC331REHko)
