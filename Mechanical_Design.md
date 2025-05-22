@@ -19,6 +19,8 @@
 
 KXRパーツを使ったドライブセットとアームセットを使用します。
 
+[KXRパーツ](https://kondo-robot.com/product-category/parts/kxrparts)
+
 ![auto](pics_git/kxr_drive_set.png) 
 ![auto](pics_git/kxr_arm_set.png) 
 
