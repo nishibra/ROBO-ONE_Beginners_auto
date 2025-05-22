@@ -45,6 +45,8 @@ CPUカバーの締め付けを繰り返すとねじが馬鹿になるのでイ�
 
 ![auto](pics_git/ins.png)   
 
+[動画](https://www.youtube.com/shorts/zL2C9oKePpQ)
+
 [購入先](https://www.amazon.co.jp/dp/B0DCV9GJND?ref=ppx_yo2ov_dt_b_fed_asin_title)
 
 ![auto](pics_git/insert.png)   
