@@ -103,12 +103,17 @@ I2C1  address:  0x10
 
 
 ### IMUライブラリー
+以下はbno055
 ```
 example/imu/bno055_test.py
 example/imu/bno055_base.py
 example/imu/bno055.py
 ```
+このプログラムは以下のサイトのものを使わせて頂きました。[Adafruit 9-DOF Absolute Orientation IMU Fusion Breakout - BNO055](https://www.adafruit.com/product/2472)がベースとなっているとのことでこちらのボードを使うとより良いでしょう。
+
 [参照 micropython-bno055](https://github.com/micropython-IMU/micropython-bno055)
+
+
 
 ### ToFライブラリー
 ```
