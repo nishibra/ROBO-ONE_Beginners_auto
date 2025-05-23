@@ -56,6 +56,12 @@ example/psd/psd_test.pyはPSDセンサーの出力電圧をADコンバーター�
 
 ### Serial Servoのコントロール
 example/krs/krs_driver.pyは近藤科学のKRSサーボモーターをコントロールするためのプログラムです。
+
+[KRS-3301 ICS](https://kondo-robot.com/product/krs-3301-ics)
+
+[ICS3.5/3.6 ソフトウェアマニュアルコマンドリファレンス](chrome-extension://efaidnbmnnnibpcajpcglclefindmkaj/https://kondo-robot.com/w/wp-content/uploads/ICS3.5_3.6_SoftwareManual_2_9.pdf)
+
+ソフトウェアマニュアルコマンドリファレンスを参考に必要な機能のみプログラムしました。
 サーボのボーレイトはは1250000bpsに設定されているものとして以下のように初期化しています。
 ```
 class KRSdriver():
@@ -79,10 +85,22 @@ if __name__ == '__main__':
 ![SERVO_SET](pics_git/ics_inv_s.png)
 
 ### I2cスキャナー
+example/i2c/i2c_2ch_scaner.pyはI2Cに接続されているデバイスのアドレスを以下のように表示します。
 ```
-example/i2c/i2c_2ch_scaner.py
+>>> %Run -c $EDITOR_CONTENT
+MPY: soft reboot
+I2C0-I2C1 SCANNER
+i2c0 devices found: 1
+I2C0  address:  0x28
+i2c1 devices found: 1
+I2C1  address:  0x10
+>>> 
 ```
+
 [参考 Raspberry Pi Pico: I2C Scanner (MicroPython) – Finding the Address of I2C Devices](https://randomnerdtutorials.com/raspberry-pi-pico-i2c-scanner-micropython/)
+
+
+
 
 ### IMUライブラリー
 ```
