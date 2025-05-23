@@ -167,8 +167,8 @@ example/ble/ble_simple_peripheral.pyの36行目のnameを変更しておくとbl
 ![SERVO_SET](pics_git/serial_ble.png)
 
 ### BLEを使ったスマホによるロボットコントロール
-- スマホによる操縦プログラム
-- PSDによるリングエッジの認識と回避
+- [スマホによる操縦プログラム](https://www.youtube.com/shorts/bfC331REHko)
+- [PSDによるリングエッジの認識と回避](https://www.youtube.com/shorts/sOUL5hm2Ak4)
 - PSDによる相手の認識と攻撃
 ```
 example/beginners/robo_beginners.py
@@ -181,4 +181,4 @@ example/beginners/robo_beginners.py
 
 ![SERVO_SET](pics_git/bacon_s1.png)
 
-[動画](https://www.youtube.com/shorts/bfC331REHko)
+
