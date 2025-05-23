@@ -99,9 +99,6 @@ I2C1  address:  0x10
 
 [参考 Raspberry Pi Pico: I2C Scanner (MicroPython) – Finding the Address of I2C Devices](https://randomnerdtutorials.com/raspberry-pi-pico-i2c-scanner-micropython/)
 
-
-
-
 ### IMU BNO055-driver
 以下はbno055のmicropython driverです。
 ```
@@ -113,7 +110,7 @@ example/imu/bno055.py
 
 [参照 micropython-bno055](https://github.com/micropython-IMU/micropython-bno055)
 
-BNO055のaddrは28または29となります。このプログラムでは下記の二か所のアドレスを変更する必要があります。
+BNO055のaddressは28または29となります。このプログラムでは下記の二か所のアドレスを変更する必要があります。
 ```
 bno055_base.py の81行目
   def __init__(self, i2c, address=0x28, 
@@ -126,8 +123,7 @@ bno055.pyの118行目
 の二か所です。i2c_scanner.pyでご確認の上変更してください。
 
 #### cariblationの方法
-
-https://qiita.com/yomori/items/95101a8792287263792b
+[BNO055メモ](https://qiita.com/yomori/items/95101a8792287263792b)
 https://zenn.dev/ymt117/books/100kinsat-spr-basic/viewer/imu
 上記によると
 ```
