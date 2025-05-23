@@ -113,6 +113,40 @@ example/imu/bno055.py
 
 [参照 micropython-bno055](https://github.com/micropython-IMU/micropython-bno055)
 
+BNO055のaddrは28または29となります。このプログラムでは下記の二か所のアドレスを変更する必要があります。
+```
+bno055_base.py
+  def __init__(self, i2c, address=0x28, 
+```
+および
+```
+bno055.py
+def __init__(self, i2c, address=0x28, crystal=True, 
+```
+の二か所です。i2c_scanner.pyでご確認の上変更してください。
+
+2.cariblationの方法
+
+https://qiita.com/yomori/items/95101a8792287263792b
+https://zenn.dev/ymt117/books/100kinsat-spr-basic/viewer/imu
+
+-加速度計のキャリブレーション
+デバイスを数秒間、6つの異なる安定した位置に置く。
+位置の変更はゆっくりと動かすようにする。
+6つの安定した位置は任意の方向でよいが、装置が少なくとも1回はX,Y,Z軸に垂直になるようにする。
+
+-ジャイロスコープのキャリブレーション
+デバイスを数秒間、単一の安定した位置に置く。
+
+-磁力計のキャリブレーション
+磁力計はHard-iron歪みとSoft-iron歪みの両方の影響を受けるが、多くの場合、Hard-ironの影響が原因。
+装置全体をランダムな動き（たとえば、空中に数字の「8」を書くなど）をいくつか行うことでHard-ironに対するキャリブレーションを行う。
+
+CALIB_STATレジスタで、加速度計のキャリブレーション状態を確認できる。すべてが3になると終了する。
+
+
+
+
 
 
 ### ToFライブラリー
@@ -123,12 +157,38 @@ example/tof/lider.py
 ```
 [参照 tf-luna-micropython](https://github.com/davmoz/tf-luna-micropython)
 
+
+TF-Luna
+
+https://www.waveshare.com/wiki/TF-Luna_LiDAR_Range_Sensor
+
+【Raspberry Pi Pico W】I2Cの使い方（micropython×Thonny）
+
+https://zenn.dev/hoshinagi1219/articles/fa53a5d95b4dda
+
+tf-luna-micropython
+
+https://github.com/davmoz/tf-luna-micropython/blob/main/main.py
+
+class I2C – a two-wire serial protocol
+
+https://docs.micropython.org/en/latest/library/machine.I2C.html
+
+エラーがでる場合は
+tof
+bytearray(value)
+としてください。
+
 ### BLE 通信ライブラリー
 ```
 example/ble/ble_test.py
 example/ble/ble_simple_peripheral.py
 example/ble/ble_advertising.py
 ```
+1.bleの名前は変更してください。
+
+
+
 [参照 Pi Pico W でBluetooth Low Energy（BLE）を試してみる](https://wisteriahill.sakura.ne.jp/CMS/WordPress/2023/10/09/pi-pico-bluetooth-low-energy-ble/)
 
 ### BLEを使ったスマホによるロボットコントロール
