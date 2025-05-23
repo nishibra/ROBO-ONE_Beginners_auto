@@ -42,12 +42,11 @@ Thonnyにて以下を設定します。
 - MicroPython(Raspberry Pi Pico)のポートに接続します。
 - Shell画面が以下の要になれば設定完了です。
 - すでにプログラムが書き込まれているときはThonnyのストップボタンをおすか、Pico拡張ボード上のリセットボタンを押した後、ポートに再接続します。
-
 ```
 MicroPython v1.25.0 on 2025-04-15; Raspberry Pi Pico W with RP2040
 Type "help()" for more information.
 >>> 
-``
+```
 ## サンプルプログラム
 ### 押しボタンSW入力とLed点滅
 ```
