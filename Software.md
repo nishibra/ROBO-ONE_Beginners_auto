@@ -49,16 +49,14 @@ Type "help()" for more information.
 ```
 ## サンプルプログラム
 ### 押しボタンSW入力とLed点滅
-```
-io/switch_led_test.py
-```
+example/io/switch_led_test.pyはスイッチ入力によりLEDを点灯するプログラムです。
+
 ### ADCとPSD入力
-```
-psd/psd_test.py
-```
+example/psd/psd_test.pyはPSDセンサーの出力電圧をADコンバーターにより取り込みその電圧を距離に変換するプログラムです。
+
 ### Serial Servoのコントロール
-krs/krs_driver.pyは近藤科学のKRSサーボモーターをコントロールするためのプログラムです。
-サーボのボーレイトはは1250000に設定されているものとします。
+example/krs/krs_driver.pyは近藤科学のKRSサーボモーターをコントロールするためのプログラムです。
+サーボのボーレイトはは1250000に設定されているものとして以下のように初期化しています。
 ```
 class KRSdriver():
   def __init__(self):
@@ -72,32 +70,31 @@ class KRSdriver():
 
 ### I2cスキャナー
 ```
-i2c/i2c_2ch_scaner.py
+example/i2c/i2c_2ch_scaner.py
 ```
 [参考 Raspberry Pi Pico: I2C Scanner (MicroPython) – Finding the Address of I2C Devices](https://randomnerdtutorials.com/raspberry-pi-pico-i2c-scanner-micropython/)
 
 ### IMUライブラリー
 ```
-imu/bno055_test.py
-imu/bno055_base.py
-imu/bno055.py
+example/imu/bno055_test.py
+example/imu/bno055_base.py
+example/imu/bno055.py
 ```
 [参照 micropython-bno055](https://github.com/micropython-IMU/micropython-bno055)
 
-
 ### ToFライブラリー
 ```
-tof_test.py
-tof_max_mini.py
-lider.py
+example/tof/tof_test.py
+example/tof/tof_max_mini.py
+example/tof/lider.py
 ```
 [参照 tf-luna-micropython](https://github.com/davmoz/tf-luna-micropython)
 
 ### BLE 通信ライブラリー
 ```
-ble/ble_test.py
-ble/ble_simple_peripheral.py
-ble/ble_advertising.py
+example/ble/ble_test.py
+example/ble/ble_simple_peripheral.py
+example/ble/ble_advertising.py
 ```
 [参照 Pi Pico W でBluetooth Low Energy（BLE）を試してみる](https://wisteriahill.sakura.ne.jp/CMS/WordPress/2023/10/09/pi-pico-bluetooth-low-energy-ble/)
 
@@ -106,7 +103,7 @@ ble/ble_advertising.py
 - PSDによるリングエッジの認識と回避
 - PSDによる相手の認識と攻撃
 ```
-beginners/robo_beginners.py
+example/beginners/robo_beginners.py
 ```
 スマホのアプリBaconを使用します。アプリからダウンロードしてください。以下のアイコンです。
 
