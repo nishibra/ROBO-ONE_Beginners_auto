@@ -38,11 +38,15 @@ UF2は-USB Flashing Format(UF2)-Microsoftが開発したマイコン書き込み
 UF2ファイルをダウンロードし、picoのフォルダーにコピペしてください。電源を入れるとPicoが起動します。
 Thonnyにて以下を設定します。
 
-- Config等
-- Picoの設定
-- Micro Pythonの初期設定
-
-
+- ConfigでインタープリターをMicroPython(Raspberry Pi Pico)に設定します。ポートが表示されていることを確認します。
+- MicroPython(Raspberry Pi Pico)のポートに接続します。
+- Shell画面が以下の要になれば設定完了です。
+- すでにプログラムが書き込まれているときはThonnyのストップボタンをおすか、Pico拡張ボード上のリセットボタンを押した後、ポートに再接続します。
+```
+MicroPython v1.25.0 on 2025-04-15; Raspberry Pi Pico W with RP2040
+Type "help()" for more information.
+>>> 
+``
 ## サンプルプログラム
 ### 押しボタンSW入力とLed点滅
 ```
@@ -53,10 +57,16 @@ io/switch_led_test.py
 psd/psd_test.py
 ```
 ### Serial Servoのコントロール
+krs/krs_driver.pyは近藤科学のKRSサーボモーターをコントロールするためのプログラムです。
+サーボのボーレイトはは1250000に設定されているものとします。
 ```
-krs/krs_driver.py
+class KRSdriver():
+  def __init__(self):
+   #set serial
+    self.con = UART(1, baudrate=1250000, tx=Pin(8), rx=Pin(9))
+    self.con.init(bits=8, parity=0, stop=1,timeout=50)
 ```
-サーボモーターの設定
+またサーボモーターの設定は以下のようにしています。
 
 ![SERVO_SET](pics_git/ics_inv_s.png)
 
