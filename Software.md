@@ -123,9 +123,7 @@ bno055.pyの118行目
 の二か所です。i2c_scanner.pyでご確認の上変更してください。
 
 #### cariblationの方法
-[BNO055メモ](https://qiita.com/yomori/items/95101a8792287263792b)
-https://zenn.dev/ymt117/books/100kinsat-spr-basic/viewer/imu
-上記によると
+キャリブレーションの方法は[BNO055メモ](https://qiita.com/yomori/items/95101a8792287263792b)によると
 ```
 - 加速度計のキャリブレーション
 デバイスを数秒間、6つの異なる安定した位置に置く。位置の変更はゆっくりと動かすようにする。6つの安定した位置は任意の方向でよいが、装置が少なくとも1回はX,Y,Z軸に垂直になるようにする。
