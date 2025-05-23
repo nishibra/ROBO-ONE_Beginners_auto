@@ -162,7 +162,7 @@ example/ble/ble_advertising.py
 
 example/ble/ble_test.pyを実行して、接続確認をしましょう。
 example/ble/ble_simple_peripheral.pyの36行目のnameを変更しておくとbluetoothをscanしたときにこの名前が現れます。
-スマホのアプリからSerial Bluetooth Terminalをダウンロードしてこれに接続します。このterminalから入力したテキストがシェルに表示されれば接続テスト完了です。
+スマホのアプリからSerial Bluetooth Terminal(以下のアイコン)をダウンロードしてこれに接続します。このterminalから入力したテキストがシェルに表示されれば接続テスト完了です。
 
 ![SERVO_SET](pics_git/serial_ble.png)
 
