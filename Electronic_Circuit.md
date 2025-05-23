@@ -12,14 +12,14 @@
 [拡張ボードの購入先例](https://www.amazon.co.jp/dp/B0B45YWJH7?ref=ppx_yo2ov_dt_b_fed_asin_title)
 
 ### Raspberry Pi Pico
-PicoやPico w,pico2,pico2wなどを使用します。Pico2W、Pico2Wを使用すれば、Bluetoothによるコントロールプログラムが利用できます。
+PicoやPico w,pico2,pico2wなどを使用します。PicoW、Pico2Wを使用すれば、Bluetoothによるコントロールプログラムが利用できます。
 
 [Pico-series 仕様](https://www.raspberrypi.com/documentation/microcontrollers/pico-series.html#pico-2-family)
 
 [Picoの購入先例](https://akizukidenshi.com/catalog/g/g117947/)
 
 ### Serial変換I/F
-サーボモーターを使用するためのシリアル通信の半二重通信から全二重通信に変換するボードです。
+サーボモーターを使用するためのシリアル通信を全二重通信から半二重通信に変換するボードです。
 
 [Serial変換I/Fの購入先](https://www.besttechnology.co.jp/modules/onlineshop/index.php?fct=photo&p=299)
 
