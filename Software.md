@@ -169,15 +169,15 @@ example/ble/ble_simple_peripheral.pyの36行目のnameを変更しておくとbl
 ### BLEを使ったスマホによるロボットコントロール
 - [スマホによる操縦プログラム](https://www.youtube.com/shorts/bfC331REHko)
 - [PSDによるリングエッジの認識と回避](https://www.youtube.com/shorts/sOUL5hm2Ak4)
-- PSDによる相手の認識と攻撃
-```
-example/beginners/robo_beginners.py
-```
+- [PSDによる相手の認識と攻撃](https://www.youtube.com/shorts/i9BcCGD1VBw)
+
+example/beginners/robo_beginners.pyはスマホによるロボットコントロールプログラムです。
 スマホのアプリBaconを使用します。アプリからダウンロードしてください。以下のアイコンです。
 
 ![SERVO_SET](pics_git/bacon.png)
 
-コントロール画面は以下のように押したときにコマンドを発行し、離した時に発行されるコマンドを設定します。動画の様な画面を自由に作ってください。
+コントロール画面は以下のように押したときにコマンドを発行し、離した時に発行されるコマンドを設定します。
+動画の様な画面を自由に作ってください。
 
 ![SERVO_SET](pics_git/bacon_s1.png)
 
