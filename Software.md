@@ -139,34 +139,16 @@ example/imu/bno055_test.pyを実行することでキャリブレーションの
 calibrated = Trueではキャリブレーションはせずに出力は相対位置となります。起動時の姿勢をヨー角0°とします。
 
 ### ToFライブラリー
+以下は[TF-Luna LiDAR Range Sensor](https://www.waveshare.com/wiki/TF-Luna_LiDAR_Range_Sensor)を使用するためのライブラリーです。
 ```
 example/tof/tof_test.py
 example/tof/tof_max_mini.py
 example/tof/lider.py
 ```
+以下のサイトのライブラリーを使わせて頂きました。
 [参照 tf-luna-micropython](https://github.com/davmoz/tf-luna-micropython)
 
-
-TF-Luna
-
-https://www.waveshare.com/wiki/TF-Luna_LiDAR_Range_Sensor
-
-【Raspberry Pi Pico W】I2Cの使い方（micropython×Thonny）
-
-https://zenn.dev/hoshinagi1219/articles/fa53a5d95b4dda
-
-tf-luna-micropython
-
-https://github.com/davmoz/tf-luna-micropython/blob/main/main.py
-
-class I2C – a two-wire serial protocol
-
-https://docs.micropython.org/en/latest/library/machine.I2C.html
-
-エラーがでる場合は
-tof
-bytearray(value)
-としてください。
+[参考サイト class I2C – a two-wire serial protocol](https://docs.micropython.org/en/latest/library/machine.I2C.html)
 
 ### BLE 通信ライブラリー
 ```
