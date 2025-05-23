@@ -164,7 +164,7 @@ example/ble/ble_test.pyを実行して、接続確認をしましょう。
 example/ble/ble_simple_peripheral.pyの36行目のnameを変更しておくとbluetoothをscanしたときにこの名前が現れます。
 スマホのアプリからSerial Bluetooth Terminalをダウンロードしてこれに接続します。このterminalから入力したテキストがシェルに表示されれば接続テスト完了です。
 
-![SERVO_SET](pics_git/ics_inv_s.png)
+![SERVO_SET](pics_git/serial_ble.png)
 
 ### BLEを使ったスマホによるロボットコントロール
 - スマホによる操縦プログラム
