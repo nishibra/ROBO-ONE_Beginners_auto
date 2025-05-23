@@ -56,13 +56,23 @@ example/psd/psd_test.pyはPSDセンサーの出力電圧をADコンバーター�
 
 ### Serial Servoのコントロール
 example/krs/krs_driver.pyは近藤科学のKRSサーボモーターをコントロールするためのプログラムです。
-サーボのボーレイトはは1250000に設定されているものとして以下のように初期化しています。
+サーボのボーレイトはは1250000bpsに設定されているものとして以下のように初期化しています。
 ```
 class KRSdriver():
   def __init__(self):
    #set serial
     self.con = UART(1, baudrate=1250000, tx=Pin(8), rx=Pin(9))
     self.con.init(bits=8, parity=0, stop=1,timeout=50)
+```
+mainプログラムで各軸のポジションの取得やモーターの回転方向などのテストができます。
+```
+if __name__ == '__main__':
+  print('Start KRS Test')
+  krs=KRSdriver()
+#
+  get_position_all()　# すべての軸のポジションを取得
+  arm_set() # アームのセットポジションへ移動
+  drive_set() # モーターを直進後転回
 ```
 またサーボモーターの設定は以下のようにしています。
 
