@@ -151,16 +151,20 @@ example/tof/lider.py
 [参考サイト class I2C – a two-wire serial protocol](https://docs.micropython.org/en/latest/library/machine.I2C.html)
 
 ### BLE 通信ライブラリー
+以下はBLEの通信ライブラリーです。
 ```
 example/ble/ble_test.py
 example/ble/ble_simple_peripheral.py
 example/ble/ble_advertising.py
 ```
-1.bleの名前は変更してください。
-
-
-
+以下のサイトから通信ライブラリーを使わせて頂きました。
 [参照 Pi Pico W でBluetooth Low Energy（BLE）を試してみる](https://wisteriahill.sakura.ne.jp/CMS/WordPress/2023/10/09/pi-pico-bluetooth-low-energy-ble/)
+
+example/ble/ble_test.pyを実行して、接続確認をしましょう。
+example/ble/ble_simple_peripheral.pyの36行目のnameを変更しておくとbluetoothをscanしたときにこの名前が現れます。
+スマホのアプリからSerial Bluetooth Terminalをダウンロードしてこれに接続します。このterminalから入力したテキストがシェルに表示されれば接続テスト完了です。
+
+![SERVO_SET](pics_git/ics_inv_s.png)
 
 ### BLEを使ったスマホによるロボットコントロール
 - スマホによる操縦プログラム
