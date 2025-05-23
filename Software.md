@@ -138,7 +138,7 @@ bno055.pyの118行目
 example/imu/bno055_test.pyを実行することでキャリブレーションの有無を確認できます。calibrated = Falseで実行するとキャリブレーションを開始します。出力は絶対位置となります。
 calibrated = Trueではキャリブレーションはせずに出力は相対位置となります。起動時の姿勢をヨー角0°とします。
 
-### ToFライブラリー
+### ToF センサー TF-Lunaライブラリー
 以下は[TF-Luna LiDAR Range Sensor](https://www.waveshare.com/wiki/TF-Luna_LiDAR_Range_Sensor)を使用するためのライブラリーです。
 ```
 example/tof/tof_test.py
