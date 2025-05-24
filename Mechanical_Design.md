@@ -63,7 +63,7 @@ PSDについてはリングエッジの認識、相手の認識を目的とし�
 
 ![auto](pics_git/psd1_bkt.png)  
 
-### Head と Arm
+### Head と Arm(操縦型と共通)
 この2点は操縦型と共通です。 組み立ての相手はKXRパーツのジョイントベースAです。M2-8mmのビスを使用して取り付けてください。
 
 ![auto](pics_git/head.png)  
