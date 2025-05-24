@@ -44,7 +44,7 @@ PicoやPico w,pico2,pico2wなどを使用します。PicoW、Pico2Wを使用す�
 
 ![serial](pics_git/base_serial.png)  
 
-### PSDセンサー
+### PSDセンサー(SHARP製 GP2Y0A21YK0F)
 PSD（Position Sensitive Detector）は光が当たった位置に応じて、アナログ信号を出力する受光素子で、﻿距離を計測するセンサーです。出力はアナログ電圧ですのでADC端子に接続します。黒:gnd　赤:3.3v  黄:信号で、ケーブルは黒:gnd　赤:3.3v  白:信号に対応します。このセンサーの推奨電圧は5Vですが3.3Vでも問題なく動作しています。
 
 ![psd](pics_git/psd.png)  
