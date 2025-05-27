@@ -98,7 +98,7 @@ GND    gnd
 
 以下のボードも確認しました。同じプログラムで動作します。
 
-![WCMCU055]((pics_git/imu_WCM.png) 
+![WCMCU055](pics_git/imu_WCM.png) 
 
 [WCMCU055の購入先](https://www.amazon.co.jp/inscriptions-BNO055-%E3%82%A4%E3%83%B3%E3%83%86%E3%83%AA%E3%82%B8%E3%82%A7%E3%83%B3%E3%83%88-%E5%A7%BF%E5%8B%A2%E3%82%BB%E3%83%B3%E3%82%B5%E3%83%BC-MCU-055/dp/B0D5TFDLPZ/ref=sr_1_3_sspa?__mk_ja_JP=%E3%82%AB%E3%82%BF%E3%82%AB%E3%83%8A&crid=19SHAU4M5UI09&keywords=WCMCU055&qid=1748325642&sprefix=wcmcu055%2Caps%2C168&sr=8-3-spons&sp_csd=d2lkZ2V0TmFtZT1zcF9tdGY&psc=1)
 
