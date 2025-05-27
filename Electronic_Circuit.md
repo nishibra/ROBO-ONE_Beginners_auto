@@ -121,7 +121,7 @@ GND    gnd
 ![led](pics_git/led_c.png)  
 ![led](pics_git/led_h.png)  
 
-[購入先](https://akizukidenshi.com/catalog/g/g103261/)
+[購入先](https://akizukidenshi.com/catalog/g/g104764/)
 
 ### 電源SWハーネス
 電源用のスイッチです。
