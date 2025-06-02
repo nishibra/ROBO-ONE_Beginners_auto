@@ -104,6 +104,16 @@ GND    gnd
 
 使い方は[こちら](https://www.davidpilling.com/wiki/index.php/BNO055)をご参照ください。
 
+秋月電子のBNO055使用9軸センサフュージョンモジュールもテストして見ました。
+
+[購入先](https://akizukidenshi.com/catalog/g/g116996/)
+
+ボード上でプルアップされていないので、SDA,SCL端子を2kΩ程度の抵抗でプルアップしてください。同じプログラムで動作します。
+
+![aki_bno055](pics_git/aki_bno055.png)
+
+
+
 ### Push ボタンSW
 押しボタンスイッチです。入力として使います。1KΩ程度の抵抗を追加し、GP17に接続します。
 
