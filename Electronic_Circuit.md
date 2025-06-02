@@ -106,7 +106,7 @@ GND    gnd
 
 秋月電子のBNO055使用9軸センサフュージョンモジュールもテストして見ました。
 
-[購入先](https://akizukidenshi.com/catalog/g/g116996/)
+[秋月電子BNO055の購入先](https://akizukidenshi.com/catalog/g/g116996/)
 
 ボード上でプルアップされていないので、SDA,SCL端子を2kΩ程度の抵抗でプルアップしてください。同じプログラムで動作します。
 
