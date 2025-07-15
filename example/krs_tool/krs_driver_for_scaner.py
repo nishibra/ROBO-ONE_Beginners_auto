@@ -206,30 +206,30 @@ def main1():
 if __name__ == '__main__':
   print('Start KRS Test')
   krs=KRSdriver()
-
+  sid=2
   # id3=7300-7900-8500
-  krs.set_position_ret(0,7300)
+  krs.set_position_ret(sid,7300)
   time.sleep(0.3)
   #回転
-  krs.set_position_ret(0,8500)
-  time.sleep(0.4)
+  krs.set_position_ret(sid,8500)
+  time.sleep(3.4)
   #stop
-  krs.set_position_ret(0,7900)
-  time.sleep(0.3)
+  krs.set_position_ret(sid,7900)
+  time.sleep(1.3)
   
     #直進
-  krs.set_position_ret(1,7600)
-  krs.set_position_ret(2,7400)
+  krs.set_position_ret(sid,8600)
+  #krs.set_position_ret(1,6400)
   time.sleep(0.3)
   #回転
-  krs.set_position_ret(1,7600)
-  krs.set_position_ret(2,7600)
+  krs.set_position_ret(sid,8600)
+  #krs.set_position_ret(1,8600)
   time.sleep(0.4)
   #stop
-  krs.set_position_ret(1,7500)
-  krs.set_position_ret(2,7500)
+  krs.set_position_ret(sid,7500)
+  #krs.set_position_ret(2,7500)
   time.sleep(0.3)
   #free
-  krs.read_position_set_free(1)
-  krs.read_position_set_free(2)
-  krs.read_position_set_free(0)
+  krs.read_position_set_free(sid)
+  #krs.read_position_set_free(2)
+  #krs.read_position_set_free(0)

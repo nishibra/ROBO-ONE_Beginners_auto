@@ -41,10 +41,10 @@ def main():
   print("Change Mode")
   write_buf=bytearray(read_buf)
   if read_buf[16]==1:
-      print("Change to Wheel Mode")
+      print("Change to Angle Mode")
       write_buf[16]=0x0 # Angle mode
   else:
-      print("Change to Angle Mode")
+      print("Change to Wheel Mode")
       write_buf[16]=0x1 # Wheel mode
 #  
   print(krs.write_memory(sid,write_buf))
