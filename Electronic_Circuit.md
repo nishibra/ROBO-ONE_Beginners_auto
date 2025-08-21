@@ -31,10 +31,10 @@ PicoやPico w,pico2,pico2wなどを使用します。PicoW、Pico2Wを使用す�
 この配線では回路ではシリアル変換I/Fボードに配線が集中するので分配器を追加しました。
 ![serial](pics_git/serial_conn2.png)
 
-[分配器の購入先](https://www.besttechnology.co.jp/modules/onlineshop/index.php?fct=photo&p=317)
-
 コネクターをはんだ付けしていないキットを購入すればコネクターの変更によって以下のように近藤科学のサーボや電源コネクターに対応することができます。
   
+[分配器の購入先](https://www.besttechnology.co.jp/modules/onlineshop/index.php?fct=photo&p=317)
+
 ![分配器](pics_git/hub.png)  
 
 拡張基板に電源供給するためのコネクターをはんだ付けしておきます。コネクターはラジコン用に使われているもので、分配器に接続します。
@@ -42,12 +42,14 @@ PicoやPico w,pico2,pico2wなどを使用します。PicoW、Pico2Wを使用す�
 ![serial](pics_git/vc_board.png)  
 
 これらを接続すると以下のようになります。
+
 ![serial](pics_git/base_serial2.png)  
 
 シリアル変換I/Fボードは拡張基板のシリアルポート1に接続します。
 全てのコネクターは方向を間違えないように挿してください。破損の原因となります。
 
 コネクターの作り方については以下のサイトなどをご参照ください。
+
 [コネクターの作り方](https://flyingcattokyo.sakura.ne.jp/MN-016/aa_mn-016.htm)
 
 ### PSDセンサー(SHARP製 GP2Y0A21YK0F)
