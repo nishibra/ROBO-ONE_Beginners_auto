@@ -25,24 +25,30 @@ PicoやPico w,pico2,pico2wなどを使用します。PicoW、Pico2Wを使用す�
 
 #### 配線方法
 シリアル変換I/Fの配線状態です。(シリアル変換I/Fボードは仕様変更がありますので配線に当たっては必ずマニアルでご確認ください。)
+![serial](pics_git/serial_conn.png)
 
-![serial](pics_git/serial_conn.png)  
-![serial](pics_git/serial_h1.png)  
+(2025年8月22日追加変更)
+この配線では回路ではシリアル変換I/Fボードに配線が集中するので分配器を追加しました。
+![serial](pics_git/serial_conn2.png)
 
-拡張基板に電源供給するためのコネクターをはんだ付けします。
+[分配器の購入先](https://www.besttechnology.co.jp/modules/onlineshop/index.php?fct=photo&p=317)
 
-![serial](pics_git/base.png)  
+コネクターをはんだ付けしていないキットを購入すればコネクターの変更によって以下のように近藤科学のサーボや電源コネクターに対応することができます。
+  
+![分配器](pics_git/hub.png)  
 
-[コネクター購入先](https://www.amazon.co.jp/MKBKLLJY-15%E3%83%9A%E3%82%A2JST-2-54%E3%83%9F%E3%83%AA%E3%83%A1%E3%83%BC%E3%83%88%E3%83%AB2%E3%83%94%E3%83%B3%E3%82%AA%E3%82%B9%E3%81%A8%E3%83%A1%E3%82%B9%E3%82%B3%E3%83%8D%E3%82%AF%E3%82%BF%E3%82%B1%E3%83%BC%E3%83%96%E3%83%ABUL1007-100%E3%83%9F%E3%83%AA%E3%83%A1%E3%83%BC%E3%83%88%E3%83%AB%E8%B5%A4%E9%BB%92%E3%81%AE%E3%82%B3%E3%83%8D%E3%82%AF%E3%82%BF%E7%B7%9A%E3%82%B1%E3%83%BC%E3%83%96%E3%83%AB%E3%81%A8%E7%86%B1%E5%8F%8E%E7%B8%AE%E3%83%81%E3%83%A5%E3%83%BC%E3%83%96%E5%B0%8F%E3%81%95%E3%81%AA%E3%83%89%E3%83%AD%E3%83%BC%E3%83%B3%E9%9B%BB%E6%B1%A0%E7%AB%AF%E5%AD%90%E3%82%BD%E3%82%B1%E3%83%83%E3%83%88LED%E3%82%B9%E3%83%88%E3%83%AA%E3%83%83%E3%83%97%E3%83%A9%E3%82%A4%E3%83%88%E7%94%A8-%E3%83%AC%E3%83%BC%E3%82%B7%E3%83%B3%E3%82%B0%E3%83%89%E3%83%AD%E3%83%BC%E3%83%B3/dp/B0DK4L34LJ/ref=pd_ci_mcx_mh_mcx_views_0_image?pd_rd_w=Pg55G&content-id=amzn1.sym.7133fed1-b7f0-4a9a-85e6-ec0056dbe781%3Aamzn1.symc.409c7fce-cbd2-4cf4-a6cb-824c258c8778&pf_rd_p=7133fed1-b7f0-4a9a-85e6-ec0056dbe781&pf_rd_r=CYAV1KFXHK1SWP9GP2GV&pd_rd_wg=QWG6P&pd_rd_r=ab2382f8-1e76-4e4d-9324-e0e0dca32048&pd_rd_i=B0DK4L34LJ&th=1)
+拡張基板に電源供給するためのコネクターをはんだ付けしておきます。コネクターはラジコン用に使われているもので、分配器に接続します。
 
-シリアル変換基板のはんだ付けした状態です。ケーブルは束ねておくと配線切れが起こりません。また完成確認後には熱収縮チューブで被覆しておきましょう。
+![serial](pics_git/vc_board.png)  
 
-![serial](pics_git/serial_h2.png)  
-![serial](pics_git/serial_h3.png)  
- 
-シリアルポート1に接続します。
+これらを接続すると以下のようになります。
+![serial](pics_git/base_serial2.png)  
 
-![serial](pics_git/base_serial.png)  
+シリアル変換I/Fボードは拡張基板のシリアルポート1に接続します。
+全てのコネクターは方向を間違えないように挿してください。破損の原因となります。
+
+コネクターの作り方については以下のサイトなどをご参照ください。
+[コネクターの作り方](https://flyingcattokyo.sakura.ne.jp/MN-016/aa_mn-016.htm)
 
 ### PSDセンサー(SHARP製 GP2Y0A21YK0F)
 PSD（Position Sensitive Detector）は光が当たった位置に応じて、アナログ信号を出力する受光素子で、﻿距離を計測するセンサーです。出力はアナログ電圧ですのでADC端子に接続します。黒:gnd　赤:3.3v  黄:信号で、ケーブルは黒:gnd　赤:3.3v  白:信号に対応します。このセンサーの推奨電圧は5Vですが3.3Vでも問題なく動作しています。
