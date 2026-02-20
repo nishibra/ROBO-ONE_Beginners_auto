@@ -8,6 +8,5 @@
  
 ### ROBO-ONE Beginners auto　[ソフトウェア](Software.md)
 
--2026年2月20日　ToFセンサーで相手を探すサンプル追加
-               近藤科学のコントローラーKRS-5FHを使うサンプル追加
+-2026年2月20日　●ToFセンサーで相手を探すサンプル追加　●近藤科学のコントローラーKRS-5FHを使うサンプル追加
 ### ROBO-ONE Beginners movies [動画](https://www.youtube.com/channel/UCuxCMnABbm_D5GusLxcCyIQ)
