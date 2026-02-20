@@ -190,5 +190,5 @@ Tofセンサーは1m程度先を見るように設定しリング外のものに
 
 Baconは写真のように上段をアームに、下段を足回りにそれぞれ矢印の方向に動作するように設定しました。またAボタンでauto、Bボタンで操縦型などと自由に設定してください。
 
-![Bacon_SET](pics_git/bacon2.png)
+![Bacon_SET](pics_git/bacon_s2.png)
 
