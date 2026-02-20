@@ -7,4 +7,7 @@
 -2025年8月22日 シリアル通信用に分配器を追加しました。
  
 ### ROBO-ONE Beginners auto　[ソフトウェア](Software.md)
+
+-2026年2月20日　ToFセンサーで相手を探すサンプルプログラム追加
+
 ### ROBO-ONE Beginners movies [動画](https://www.youtube.com/channel/UCuxCMnABbm_D5GusLxcCyIQ)
