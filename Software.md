@@ -242,12 +242,15 @@ while True:
 
 ### IMUの活用
 #### Pich軸制御　(倒立伸子)
-[Pich](https://www.youtube.com/shorts/UjHwfoPYoFk)
+[Pich動画](https://www.youtube.com/shorts/UjHwfoPYoFk)
 
-[Pitch2](https://www.youtube.com/shorts/Del15TIizIo)
+[Pitch2動画](https://www.youtube.com/shorts/Del15TIizIo)
+
 #### Roll軸制御
-[Roll](https://www.youtube.com/shorts/StgpTMR23V4)
+[Roll動画](https://www.youtube.com/shorts/StgpTMR23V4)
+
 #### Yaw軸制御
 [Yaw](https://www.youtube.com/shorts/aTl3Kq1fJ40)
+
 #### PIDの最適化
-[強化学習](https://www.youtube.com/watch?v=8uTVi8vXCB4)
+[強化学習動画](https://www.youtube.com/watch?v=8uTVi8vXCB4)
