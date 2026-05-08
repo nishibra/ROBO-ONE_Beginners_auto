@@ -189,7 +189,7 @@ example/beginners/robo_beginners_tof.py
 Tofセンサーは1m程度先を見るように設定しリング外のものに反応しないように、また外乱光の影響を受け難いようにします。
 相手がいるときはまっすぐ進みます。近づけば、PSDセンサーが反応し相手を打突します。相手がいない時はくねくねとターンを繰り返しながら相手を探します。
 
-- [ToFセンサーで相手を探す](https://youtu.be/fS7ZChnerrg)
+- [ToFセンサーで相手を探す動画](https://youtu.be/fS7ZChnerrg)
 
 Baconは写真のように上段をアームに、下段を足回りにそれぞれ矢印の方向に動作するように設定しました。またAボタンでauto、Bボタンで操縦型などと自由に設定してください。
 
@@ -239,3 +239,15 @@ while True:
 ```
 4). 活用のアドバイス
 取得した数値（a, b）をプログラム内で比較・判定することで、特定のボタンが押された時に「前へ移動する」「面を打つ」といったアクションを割り当て、ロボットを自由自在に操縦できるようになります。
+
+### IMUの活用
+#### Pich軸制御　(倒立伸子)
+[Pich](https://www.youtube.com/shorts/UjHwfoPYoFk)
+
+[Pitch2](https://www.youtube.com/shorts/Del15TIizIo)
+#### Roll軸制御
+[Roll](https://www.youtube.com/shorts/StgpTMR23V4)
+#### Yaw軸制御
+[Yaw](https://www.youtube.com/shorts/aTl3Kq1fJ40)
+#### PIDの最適化
+[強化学習](https://www.youtube.com/watch?v=8uTVi8vXCB4)
