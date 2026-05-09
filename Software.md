@@ -246,6 +246,10 @@ while True:
 
 [Pitch2動画](https://www.youtube.com/shorts/Del15TIizIo)
 
+サンプルプログラムは以下に置きました。
+
+/example/balance/self_balanced
+
 #### Roll軸制御
 [Roll動画](https://www.youtube.com/shorts/StgpTMR23V4)
 
@@ -254,3 +258,7 @@ while True:
 
 #### PIDの最適化
 [強化学習動画](https://www.youtube.com/watch?v=8uTVi8vXCB4)
+
+サンプルプログラムは以下に置きました。
+
+/example/balance/rein_bestPID.py
